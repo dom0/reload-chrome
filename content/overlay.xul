@@ -11,20 +11,13 @@
 
 <!-- Firefox -->
 <toolbarpalette id="BrowserToolbarPalette">
-  <toolbarbutton id="custom-button"/>
+  <!-- button details -->
+  <toolbarbutton id="custom-button"
+    label="ReloadChrome"
+    tooltiptext="Reload all chrome"
+    oncommand="reloadChrome()"
+    image="chrome://reloadchrome/content/button.png"
+    value="RaC"/>
 </toolbarpalette>
 
-
-
-<!-- button details -->
-<toolbarbutton id="custom-button"
-  label="ReloadChrome"
-  tooltiptext="Reload all chrome"
-  oncommand="reloadChrome()"
-  class="custombutton"
-  value="RaC"
-  />
-
 </overlay>
-
-<!--  class="toolbarbutton-1 chromeclass-toolbar-additional custombutton"-->

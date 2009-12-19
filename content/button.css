@@ -1,17 +1,17 @@
-#custom-button,
-#wrapper-custom-button
-{list-style-image: url("chrome://reloadchrome/content/button.png");}
+#custom-button {
+  list-style-image: url("chrome://reloadchrome/content/button.png");
+}
 
-/* common style for all custom buttons */
-.custombutton                  
-  {-moz-image-region: rect( 0px 16px 16px  0px);}
+/*
+#custom-button                  
+  {-moz-image-region: rect( 0px 0px 16px  16px);}
 
-.custombutton:hover     
-  {-moz-image-region: rect(0px 16px 16px  0px);}
+#custom-button:hover     
+  {-moz-image-region: rect(0px 0px 16px  6px);}
 
-[iconsize="small"] .custombutton
-  {-moz-image-region: rect( 0px 16px 16px 0px);}
+[iconsize="small"] #custom-button
+  {-moz-image-region: rect( 0px 0px 16px 16px);}
 
-[iconsize="small"] .custombutton:hover
-  {-moz-image-region: rect(0px 16px 16px 0px);}
-
+[iconsize="large"] #custom-button:hover
+  {-moz-image-region: rect(0px 0px 16px 16px);}
+*/
