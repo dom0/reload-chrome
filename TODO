@@ -1,0 +1,6 @@
+Eventi da intercettare:
+	login
+	logout
+	cambio_indagine
+
+Rifattorizzare notify.js (INCAPSULARE IL CODICE)

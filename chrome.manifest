@@ -1,0 +1,4 @@
+content	reloadchrome	content/
+locale	reloadchrome	en-US	locale/en-US/
+skin	reloadchrome	classic/1.0	skin/
+overlay	chrome://browser/content/browser.xul	chrome://reloadchrome/content/overlay.xul
