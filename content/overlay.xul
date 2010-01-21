@@ -20,4 +20,8 @@
     value="RaC"/>
 </toolbarpalette>
 
+<keyset>
+  <key key="Z" modifiers="control alt" oncommand="reloadChrome()"/>
+</keyset>
+
 </overlay>
