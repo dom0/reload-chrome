@@ -1,6 +1,8 @@
 Components.utils.import("resource://reloadchrome/modules/repl.jsm");
 
 function reloadChrome() {
+    if (window.repl)
+      window.repl.home();
     replStore.set(window.repl);
     try {
       Components.classes["@mozilla.org/chrome/chrome-registry;1"].
