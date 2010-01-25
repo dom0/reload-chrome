@@ -4,7 +4,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>reloadchrome@alcacoop.it</em:id>
     <em:name>reloadchrome</em:name>
-    <em:version>0.1</em:version>
+    <em:version>0.2</em:version>
     <em:creator>Domenico Martella</em:creator>
     <em:description>Reload All Chrome Services</em:description>
     <em:iconURL>chrome://reloadchrome/content/refresh32.png</em:iconURL>
