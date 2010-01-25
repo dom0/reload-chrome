@@ -7,6 +7,7 @@
     <em:version>0.1</em:version>
     <em:creator>Domenico Martella</em:creator>
     <em:description>Reload All Chrome Services</em:description>
+    <em:iconURL>chrome://reloadchrome/content/refresh32.png</em:iconURL>
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- firefox -->

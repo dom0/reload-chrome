@@ -1,17 +1,10 @@
 #custom-button {
-  list-style-image: url("chrome://reloadchrome/content/button.png");
+  list-style-image: url("chrome://reloadchrome/content/refresh24.png");
 }
 
-/*
-#custom-button                  
-  {-moz-image-region: rect( 0px 0px 16px  16px);}
-
-#custom-button:hover     
-  {-moz-image-region: rect(0px 0px 16px  6px);}
-
-[iconsize="small"] #custom-button
-  {-moz-image-region: rect( 0px 0px 16px 16px);}
-
-[iconsize="large"] #custom-button:hover
-  {-moz-image-region: rect(0px 0px 16px 16px);}
-*/
+toolbar[iconsize="large"] #custom-button {
+  list-style-image: url("chrome://reloadchrome/content/refresh24.png");
+}
+toolbar[iconsize="small"] #custom-button {
+  list-style-image: url("chrome://reloadchrome/content/refresh16.png");
+}

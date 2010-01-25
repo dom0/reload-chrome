@@ -30,25 +30,20 @@
         #################################################################
 -->
 
-<?xml-stylesheet type="text/css"
-  href="chrome://reloadchrome/content/button.css"?>
+<?xml-stylesheet type="text/css" href="chrome://reloadchrome/content/button.css"?>
+<!DOCTYPE overlay>
 
-<!DOCTYPE overlay >
-<overlay id="custombutton-overlay"
-  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<overlay id="custombutton-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/javascript" src="chrome://reloadchrome/content/overlay.js"/>
 
-<script type="application/javascript"
-  src="chrome://reloadchrome/content/overlay.js"/>
-
-<!-- Firefox -->
 <toolbarpalette id="BrowserToolbarPalette">
-  <!-- button details -->
   <toolbarbutton id="custom-button"
+    class="custombutton"
     label="ReloadChrome"
     tooltiptext="Reload all chrome"
     oncommand="reloadChrome()"
-    image="chrome://reloadchrome/content/button.png"
-    value="RaC"/>
+    orient="vertical"/>
+    <!--image="chrome://reloadchrome/content/refresh48.png"/-->
 </toolbarpalette>
 
 <keyset>
